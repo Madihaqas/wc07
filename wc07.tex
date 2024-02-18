@@ -1,0 +1,58 @@
+\documentclass[a4paper]{exam}
+
+\usepackage{amsmath}
+\usepackage[a4paper]{geometry}
+
+\usepackage{draftwatermark}
+\SetWatermarkText{Sample Solution}
+\SetWatermarkScale{3}
+\printanswers
+
+
+\header{CS/MATH 113}{WC07: Proofs}{Spring 2024}
+\footer{}{Page \thepage\ of \numpages}{}
+\runningheadrule
+\runningfootrule
+
+\printanswers
+
+\qformat{{\large\bf \thequestion. \thequestiontitle}\hfill}
+\boxedpoints
+
+\title{Weekly Challenge 07: Proofs}
+\author{CS/MATH 113 Discrete Mathematics}
+\date{Spring 2024}
+
+\begin{document}
+\maketitle
+
+\begin{questions}
+
+\titledquestion{Perfect Universe}[5]
+  We consider a \textit{perfect universe}, $U$, that is inhabited by distinct elements. Any two elements, $a$ and $b$, can be \textit{combined} to yield a unique element $c$, denoted as $ab=c$. The following properties holds in $U$.
+  \begin{itemize}
+  \item Associativity: $\forall a\forall b\forall c [(ab)c = a(bc)]$. 
+  \item \textit{Identity}: $\exists e\forall a (ea=ae=a)$. $e$ is called the \textit{identity} element of $U$.
+  \item \textit{Enemies}: $\forall a\exists b (ab= ba = e)$. The element, $b$, that makes this property true for another element, $a$, is said to be the \textit{enemy} of $a$.
+  \end{itemize}
+  Note that commutativity need not hold, i.e., it is not necessary for all elements $a, b$ to have the property that $ab=ba$.
+
+  Prove the following properties of $U$.
+  \begin{parts}
+  \item The identity element, $e$, is unique in $U$.
+    \begin{solution}
+      % Enter your solution here.
+    \end{solution}
+  \item Every element has a unique enemy.
+    \begin{solution}
+      % Enter your solution here.
+    \end{solution}
+  \item Given elements $a$ and $b$, the enemy of $ab$ is the same as the enemy of $b$ combined with the enemy of $a$.
+    \begin{solution}
+      % Enter your solution here.
+    \end{solution}
+  \end{parts}
+
+\end{questions}
+
+\end{document}
